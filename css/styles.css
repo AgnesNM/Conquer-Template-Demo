@@ -3,9 +3,54 @@ body{
     font-size: 20px;    
     color: #333;
     margin: 0em;
-
+    background-color: transparent;
+    
+}
+.image2{
+    visibility: hidden;
+    z-index: -100;
+    position: fixed;
+    top: 1918.19px;
+    left: 0px;
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    height: 313px;
+    width: 785px;
 }
 
+.image2>img{
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    top: -1534.55px;
+    left: -340px;
+    height: 572px;
+    width: 1466px;
+    max-width: none;
+    vertical-align: middle;
+}
+
+.image3{
+    visibility: visible;
+    z-index: -100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    height: 614px;
+    width: 785px;
+}
+
+.image3>img{
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    top: 0px;
+    left: -132px;
+    height: 614px;
+    width: 1050px;
+    max-width: none;
+    vertical-align: middle;
+}
 .nav-container{
     width:100%;
     min-height:50px;
@@ -51,10 +96,18 @@ body{
     padding-top:4em;   
     margin-right: -15px;
     margin-left: -15px;
-    text-align:center;
-    background-color: yellow;   
+    text-align:center;    
+    height: 600px;     
+    position: relative;
+    top:-40px;
 } 
-.conqueror-container .row > h1{
+
+.conqueror-container .content{
+    bottom:-40px;    
+    z-index: 40;
+}
+
+.conqueror-container .row .content > h1{
     color: #fff;
     font-size: 70px;
     text-transform: uppercase;
@@ -66,7 +119,7 @@ body{
 *, :before, ::after{
     box-sizing: border-box; 
 }
-.conqueror-container .row > h4{    
+.conqueror-container .row .content  > h4{    
     color: #fff;
     font-size: 25px;
     text-shadow: 1px 1px #333; 
@@ -75,7 +128,28 @@ body{
     font-weight: 500;
     line-height: 1.1;
 }
+#image1{    
+    display:none;
+    z-index: -100;
+    position: fixed; 
+    /* top: 4121.28px; */
+    /* left: 0px; */
+    /* overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);    
+    height: 577px;
+    width: 785px;      */
+}
 
+/* .image1 > img{
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    top: -3297.03px;
+    left: -212px;
+    height: 625px; 
+    width: 1209px; 
+    max-width: none;
+    vertical-align: middle;
+} */
 
 
 
