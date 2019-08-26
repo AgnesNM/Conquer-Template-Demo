@@ -6,16 +6,17 @@ body{
     background-color: transparent;
     
 }
-.image2{
-    visibility: hidden;
-    z-index: -100;
+.image2{    
+    visibility: visible;    
     position: fixed;
     top: 1918.19px;
     left: 0px;
+    right:0px;
     overflow: hidden;
     transform: translate3d(0px, 0px, 0px);
     height: 313px;
-    width: 785px;
+    width: 785px;     
+    margin-top:0em;     
 }
 
 .image2>img{
@@ -89,17 +90,11 @@ body{
 
 }
 .conqueror-container{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; 
-    padding-top: 4em;   
-    margin-right: -15px;
-    margin-left: -15px;
-    text-align:center;    
+    padding: 7em 0.15em 0em 0.15em;
+    margin: 0px 0.15em 0px 0.5em;       
     height: 600px;     
-    position: relative;
-    top:-40px;
+    position: fixed;
+    top:-20px;
     text-align:center; 
     z-index:10;   
 }
@@ -107,9 +102,13 @@ body{
     display:flex;    
 } 
 
-.conqueror-container .content{
-    bottom:-40px;    
-    z-index: 40;
+.conqueror-container .row .content{
+    margin: 0em 20em;
+    padding:9em 0em;
+    position: fixed;
+    bottom:-10px;    
+    z-index: 20;
+   
 }
 
 .conqueror-container .row .content > h1{
@@ -119,10 +118,10 @@ body{
     text-shadow: 2px 2px #000;    
     font-weight: 500;
     line-height: 1.1;    
-    padding-top: 2em; 
+    padding-top: 4em; 
     margin-top: 20px;
     margin-bottom: 10px;
-    box-sizing: border-box;             
+          
 }
 *, :before, ::after{
     box-sizing: border-box; 
@@ -135,31 +134,8 @@ body{
     margin-bottom: 10px;
     font-weight: 500;
     line-height: 1.1;
+    margin: 1em 4em 1em 3 em;
 }
-<<<<<<< HEAD
-#image1{    
-    display:none;
-    z-index: -100;
-    position: fixed; 
-    /* top: 4121.28px; */
-    /* left: 0px; */
-    /* overflow: hidden;
-    transform: translate3d(0px, 0px, 0px);    
-    height: 577px;
-    width: 785px;      */
-}
-
-/* .image1 > img{
-    transform: translate3d(0px, 0px, 0px);
-    position: absolute;
-    top: -3297.03px;
-    left: -212px;
-    height: 625px; 
-    width: 1209px; 
-    max-width: none;
-    vertical-align: middle;
-} */
-=======
 .section2{
     margin:1em 3em 1em 3em;
 }
@@ -208,7 +184,7 @@ body{
     text-align: center;
     background: #F2F2F2;         
 }
->>>>>>> master
+
 
 #s2Two{    
     color: #1686C1;    
