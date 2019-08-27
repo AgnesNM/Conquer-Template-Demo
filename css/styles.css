@@ -339,7 +339,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .section5{
     margin:0em 5em 0em 5em;
-    padding-bottom:5em;
+    padding-bottom:0.1em;
 }
 .col-content5{
     background: #F2F2F2; 
@@ -479,15 +479,45 @@ textarea{
     margin-left: -15px;
  }
  .section6 .row .col-sm-12{
-    text-align: center;
+     display:grid;
+     grid-template-columns: repeat(auto-fit, minmax(750px, 1fr));
+     margin:2em -2em 10em 9em;
  }
-
+ .section6 .row .col-sm-12 .form-content{
+    margin:0em 5em -5em 7em;
+ }
+ .section6 .row .col-lg-12 > form {
+    padding:-2em;
+    margin:2em;    
+    position:absolute;
+    bottom:-200px;
+ }
+ .section6 .row .col-lg-12 > form > input[placeholder="Name"]{
+    background: #F2F2F2;
+    color:white;
+ }
+ .section6 .row .col-lg-12{
+     padding-top:-0.05em;
+     margin:1em;
+     text-align: center;
+ }
+.section6 .row .col-sm-12 .form-content > p{
+    padding:0.5em;
+    background: #F2F2F2;
+    color:black;
+}
  .form-content > h1{
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 30px;
     text-shadow: 2px 2px #333;
     font-size: 36px;
+    padding:0.5em;
+    
+ }
+ .form-content > p{
+    
+
  }
  h1{
     font-size: 36px;
@@ -508,40 +538,45 @@ textarea{
     margin-left: auto;
     height: 100%; 
     border: 1px solid transparent;    
-    padding:0em 0em 28em 0em;
+    padding:0em 0em 10em 0em;    
+    color:white;
  }
  .form-bg{
     display:block;
     position: absolute;
-    bottom:-4500px;
-    z-index:-50;  
+    bottom:-4200px;    
+    z-index:-10;  
     visibility: visible;  
     overflow: hidden;  
-    transform: translate3d(0px, 0px, 0px);
-    border: 1px solid transparent;
-    margin-bottom: 0em;
-    padding:7em;  
-    margin:5em;  
-    margin-top:5em;
-    backgroung:transparent;     
+    transform: translate3d(0px, 0px, 0px);    
+    margin-bottom: 0em;    
+    margin-top:1em;        
  }
- .form-bg > img{
+ .form-bg .row > img{
     width:100%;
     height:700px;
     padding:2em;
+ }
+ .col-sm-6 .form-group{
+     margin:1em;
  }
  .section6 .row {
     margin: 0em 20em;
     padding:11em 5em;
     position: absolute;
-    bottom:-4000px;
+    bottom:-4200px;    
     right:-100px;
     z-index: 20;
     
+    
  } 
+ .section6 .row .col-sm-12{
+     padding:2em;
+
+ }
  
 .footer-area{
-    padding-top:12em;
+    padding-top:2em;
 }
 .footer-container{
     padding-right: 15px;
